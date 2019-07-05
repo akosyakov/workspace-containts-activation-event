@@ -1,6 +1,6 @@
 {
-	"name": "workspace-contains-path",
-	"displayName": "workspace-contains-path",
+	"name": "workspace-contains-glob",
+	"displayName": "workspace-contains-glob",
 	"description": "",
 	"publisher": "test",
 	"version": "0.0.1",
@@ -12,7 +12,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"workspaceContains:packages/core/package.json"
+		"workspaceContains:**/core/package.json"
 	],
 	"main": "./out/extension.js",
 	"scripts": {
